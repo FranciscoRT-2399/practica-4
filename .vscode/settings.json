@@ -1,0 +1,26 @@
+{
+   "editor.cursorSmoothCaretAnimation": "on",
+   "editor.cursorBlinking": "expand",
+   "editor.tabSize": 3,
+   "editor.renderWhitespace": "selection",
+   "editor.cursorStyle": "line",
+   "editor.multiCursorModifier": "alt",
+   "editor.wordWrap": "off",
+   "editor.accessibilitySupport": "auto",
+   "editor.autoClosingBrackets": "languageDefined",
+   "editor.autoIndent": "full",
+   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+   "editor.colorDecoratorsActivatedOn": "clickAndHover",
+   "editor.columnSelection": false,
+   "editor.defaultColorDecorators": false,
+   "editor.defaultFormatter": null,
+   "editor.definitionLinkOpensInPeek": false,
+   "editor.experimental.asyncTokenizationLogging": false,
+   "editor.experimental.asyncTokenizationVerification": false,
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }
+}
