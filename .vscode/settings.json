@@ -1,7 +1,7 @@
 {
    "editor.cursorSmoothCaretAnimation": "on",
    "editor.cursorBlinking": "expand",
-   "editor.tabSize": 3,
+   "editor.tabSize": 2,
    "editor.renderWhitespace": "selection",
    "editor.cursorStyle": "line",
    "editor.multiCursorModifier": "alt",
@@ -22,5 +22,10 @@
    },
    "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-   }
+   },
+   "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "editor.fontSize": 13,
+   "editor.fontFamily": "'Fira Code', monospace"
 }
