@@ -1,7 +1,7 @@
-$rojo: red;
+//Sintaxis vieja
+// @import 'base/variables'; 
+// @import 'contenido/contenido';
 
-body {
-   background-color: $rojo
-}
-
- 
+//Sintaxis nueva
+@use 'base'; //apuntamos a la carpeta que contiene los scss
+@use 'layout';

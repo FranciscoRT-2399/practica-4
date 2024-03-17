@@ -1,0 +1,59 @@
+@use 'base/variables' as v;
+
+@mixin telefono{
+  @media (min-width: v.$telefono){
+    @content; //permite editar el contenido del mq
+  }
+}
+
+@mixin tablet{
+  @media (min-width: v.$tablet){
+    @content; //permite editar el contenido del mq
+  }
+}
+
+@mixin desktop{
+  @media (min-width: v.$desktop){
+    @content; //permite editar el contenido del mq
+  }
+}
+
+@mixin desktopXL{
+  @media (min-width: v.$desktopXL){
+    @content; //permite editar el contenido del mq
+  }
+}
+
+@mixin grid($columnas, $gap){
+  display: grid;
+  grid-template-columns: repeat($columnas,1fr);
+  gap: $gap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @mixin heading($color: blue, $border-radius: false){
+//   text-transform: uppercase;
+//   font-size: 2.4rem;
+//   color: $color;
+//   letter-spacing: 1px;
+//   background-color: black;
+
+//   @if $border-radius {
+//     border-radius: 1rem;
+//   }
+// }

@@ -27,5 +27,8 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
    },
    "editor.fontSize": 13,
-   "editor.fontFamily": "'Fira Code', monospace"
+   "editor.fontFamily": "'Fira Code', monospace",
+   "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }
 }
