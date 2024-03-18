@@ -8,22 +8,22 @@ function iniciarApp() {
   navegacionFija();
 } //invocar funciones
 
-function navegacionFija(){
+function navegacionFija() {
   const barra = document.querySelector(".header");
   const sobreFestival = document.querySelector(".sobre-festival");
   const body = document.querySelector("body");
-  
-  window.addEventListener('scroll', function(e){
-    if(sobreFestival.getBoundingClientRect().bottom < 0){ //da la posición del scroll referente a un punto de referencia
-      barra.classList.add('fijo');
-      body.classList.add('body-scroll');
-    }else{
-      barra.classList.remove('fijo');
-      body.classList.remove('body-scroll');
-    };
+
+  window.addEventListener("scroll", function (e) {
+    if (sobreFestival.getBoundingClientRect().bottom < 0) {
+      //da la posición del scroll referente a un punto de referencia
+      barra.classList.add("fijo");
+      body.classList.add("body-scroll");
+    } else {
+      barra.classList.remove("fijo");
+      body.classList.remove("body-scroll");
+    }
   });
 }
-
 
 function scrollNav() {
   const enlaces = document.querySelectorAll(".navegacion-principal a");
@@ -53,7 +53,7 @@ function crearGaleria() {
       alt="imagen galería"
     />`;
 
-    galeria.onclick = function () {
+    imagen.onclick = function () {
       mostrarImagen(i);
     };
 
@@ -83,6 +83,7 @@ function mostrarImagen(id) {
     body.classList.remove("fijar-body");
     overlay.remove();
   };
+
   //Botón para cerrar la el modal
   const cerrarModal = document.createElement("P");
   cerrarModal.textContent = "X";
