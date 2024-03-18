@@ -17,6 +17,11 @@ body{
   &.fijar-body{
     overflow: hidden;
   }
+
+  &.body-scroll{
+    padding-top: 8.6rem; //debe ser igual al tamaño del header
+  } 
+
 }
 
 p {
